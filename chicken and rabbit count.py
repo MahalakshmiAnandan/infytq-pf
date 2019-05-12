@@ -8,7 +8,7 @@ def solve(heads,legs):
         if(2*chicken_count+4*rabbit_count==legs):
             
            chicken_count=c
-            rabbit_count=rabbit_count
+            rabbit_count=r
             break
         c=c+1
     if(flag==0):
